@@ -4,4 +4,5 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://paxtonm342.github.io',
+    base: '/paxtonm342.github.io',
 });
