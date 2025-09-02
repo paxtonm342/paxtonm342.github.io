@@ -18,6 +18,7 @@ local_backend: true
 
 backend:
   name: git-gateway
+  branch: main
   # repo: paxtonm342/paxtonm342.github.io
   
 
