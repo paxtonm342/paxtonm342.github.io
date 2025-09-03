@@ -19,6 +19,8 @@ local_backend: true
 backend:
   name: github
   repo: paxtonm342/paxtonm342.github.io
+  branch: main
+  base_url: https://sveltia-cms-auth.flowerfoxdev.workers.dev/
   
 
   
