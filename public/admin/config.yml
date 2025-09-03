@@ -17,9 +17,8 @@ public_folder: "src/assets/images" # The src attribute for uploaded media
 local_backend: true
 
 backend:
-  name: git-gateway
-  branch: main
-  # repo: paxtonm342/paxtonm342.github.io
+  name: github
+  repo: paxtonm342/paxtonm342.github.io
   
 
   
