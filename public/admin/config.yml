@@ -6,9 +6,9 @@ collections:
     fields: # The fields for each document, usually in frontmatter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Layout", name: "layout", widget: "select", options: "../../layouts/MarkdownPostLayout.astro" }
-      - { label: "author", name: "Author", widget: "string" }
-      - { label: "pubDate", name: "date", widget: "datetime" }
-      - { label: "description", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "pubDate", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
 media_folder: "src/assets/images" # Location where files will be stored in the repo
