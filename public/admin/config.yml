@@ -8,6 +8,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "string", default: "../../layouts/MarkdownPostLayout.astro" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Date", name: "pubDate", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
