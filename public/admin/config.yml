@@ -5,7 +5,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in frontmatter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Layout", name: "layout", widget: "select", options: "../../layouts/MarkdownPostLayout.astro" }
+      - { label: "Layout", name: "layout", widget: "string", default: "../../layouts/MarkdownPostLayout.astro" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Date", name: "pubDate", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
