@@ -24,8 +24,8 @@ media_libraries:
         svg:
           optimize: true
 
-media_folder: "src/assets/images" # Location where files will be stored in the repo
-public_folder: "src/assets/images" # The src attribute for uploaded media
+media_folder: "src/images" # Location where files will be stored in the repo
+public_folder: "src/images" # The src attribute for uploaded media
 
 backend:
   name: github
