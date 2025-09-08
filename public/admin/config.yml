@@ -12,8 +12,8 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-media_folder: "src/images" # Location where files will be stored in the repo
-public_folder: "src/images" # The src attribute for uploaded media
+media_folder: "public/images" # Location where files will be stored in the repo
+public_folder: "public/images" # The src attribute for uploaded media
 
 backend:
   name: github
