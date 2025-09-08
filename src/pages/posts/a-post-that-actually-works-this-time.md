@@ -3,7 +3,7 @@ title: A Post That Actually Works This Time
 layout: ../../layouts/MarkdownPostLayout.astro
 author: Paxton M.
 pubDate: 2025-09-04T12:48:00
-image: src/assets/images/Jerm.png
+image: ../src/assets/images/Jerm.png
 description: Fixed a simple bug
 ---
 ## Sometimes, The Smallest Bugs Are The Hardest To Find
