@@ -12,6 +12,18 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image: # original format
+          format: webp # new format, only `webp` is supported
+          quality: 85 # default: 85
+          width: 2048 # default: original size
+          height: 2048 # default: original size
+        svg:
+          optimize: true
+
 media_folder: "src/assets/images" # Location where files will be stored in the repo
 public_folder: "src/assets/images" # The src attribute for uploaded media
 
