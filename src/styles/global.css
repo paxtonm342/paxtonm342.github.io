@@ -1,5 +1,20 @@
+/* Author: Paxton M.
+   Date created: Aug 29th 2025*/
+
+:root {
+    --light_beige: #fff8f2;
+    --beige: #FFE8C7;
+    --light_blue: #BCD3DC;
+    --blue: #A0DAE4;
+    --light_brown: #B89B8E;
+    --dark_red: #500B00;
+    --para_text: calc(1rem + 0.4vw);
+    --title_text: calc(1.5rem + 0.8vw);
+    --cap_text: calc(0.5rem + 0.5vw);
+}
+
 html {
-    background-color: #f1f5f9;
+    background-color: var(--light_beige);
     font-family: sans-serif;
 }
 
@@ -32,20 +47,21 @@ h1 {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #ff9776;
+    background-color: var(--blue);
 }
 
 .nav-links {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #ff9776;
+    background-color: var(--blue);
     display: none;
     margin: 0;
 }
 
 .nav-links a {
     display: block;
+    color: black;
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
@@ -56,14 +72,14 @@ h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-    background-color: #ff9776;
+    background-color: var(--blue);
 }
 
 .expanded {
     display: unset;
 }
 
-@media screen and (min-width: 636px) {
+@media screen and (min-width: 500px) {
     .nav-links {
         margin-left: 5em;
         display: block;
