@@ -3,7 +3,7 @@ title: Another test post just because
 layout: ../../layouts/MarkdownPostLayout.astro
 author: Paxton M.
 pubDate: 2025-09-08T10:01:00
-image: /public/images/image0.png
+image: images/image0.png
 description: Just testing another post because I didn't touch this project over the weekend
 ---
 So I am writing another test post today because I didn't touch this project over the weekend and I wanted to make sure it is still working somewhat properly. Last week I couldn't get the image to load and I still can't so I don't know if the images are like not importing properly or yeah not really sure what is going wrong. Especially because it works fine in the local test server.
